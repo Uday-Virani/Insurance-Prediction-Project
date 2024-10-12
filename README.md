@@ -26,8 +26,9 @@ This notebook contains the complete machine learning pipeline, including:
 Data Preprocessing : Handling missing values, encoding categorical variables, and feature scaling.  
 Exploratory Data Analysis (EDA) : Insights into the distribution of features and relationships between variables.  
 Model Building : Training machine learning models (e.g., Logistic Regression, Decision Trees, Random Forest) to predict the likelihood of a customer purchasing insurance.  
-Model Evaluation : Assessing model performance using metrics like accuracy, precision, recall, and AUC scores.  
-Hyperparameter Tuning : Optimizing model performance using GridSearchCV.  
+Hyperparameter Tuning : Optimizing model performance using RandomizedSearchCV.  
+Model Evaluation : Assessing model performance using metrics like accuracy, precision, recall, and F1-scores.   
+Model Save : Model saved by using Joblib which can be used without retraining in future. 
 
 ## Streamlit App: Insurance_prediction_Streamlit.py
 This is a web application built using Streamlit, which allows users to:  
@@ -36,8 +37,8 @@ Input customer details through an interactive interface.
 Get real-time predictions on whether a customer will purchase vehicle insurance.  
 
 ## To Run the Streamlit App:  
-Install Streamlit: pip install streamlit  
-Execute the command: streamlit run Insurance_prediction_Streamlit.py  
+Install Streamlit : pip install streamlit  
+Execute the command : streamlit run Insurance_prediction_Streamlit.py  
 Use the app to predict insurance purchases based on new customer inputs.  
 
 ## Power BI Dashboard  
